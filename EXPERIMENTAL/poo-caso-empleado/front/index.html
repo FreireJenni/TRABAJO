@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="/poo-caso-empleado/front/static/css/styles.css">
+    <link rel="stylesheet" type="img" href="/poo-caso-empleado/front/static/css/img/_99199832_edificios.jpg">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/5D5B/production/_99199832_edificios.jpg" class="photo" alt="foto/empresa">
+        <form class="row g-1">
+            <div class="boton1">
+                <label for="inputEmail4" class="form-label">Nombres</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="boton2">
+                <label for="inputPassword4" class="form-label">Apellidos</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="boton3">
+                <label for="inputAddress" class="form-label">Genero</label>
+                <select class="form-select">
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                    <option>Lesbiana</option>
+                    <option>Bisexual</option>
+                    <option>Gay</option>
+                </select>
+            </div>
+            <div class="boton4">
+                <label for="inputAddress2" class="form-label">Fecha de Nacimiento</label>
+                <input type="date" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="boton5">
+                <label for="inputCity" class="form-label">Fecha de Ingreso</label>
+                <input type="date" class="form-control" id="inputCity">
+            </div>
+            <div class="boton6">
+                <label for="inputZip" class="form-label">Salario</label>
+                <input type="number" class="form-control" id="inputZip">
+            </div>
+            <div class="boton7">
+                <button type="button" class="btn5">Modificar Salario</button>
+            </div>
+            <hr>
+            <div class="boton8">
+                <button type="button" class="btn1" id="id-add-empleado">Agregar Empleado</button>
+                <button type="button" class="btn2" id="id-calcular-edad">Calcular Edad</button>
+                <button type="button" class="btn3">Calcular Antiguedad</button>
+                <button type="button" class="btn4">Calcular Prestaciones</button>
+            </div>
+        </form>
+
+        <div class="boton9">
+            <div class="card">
+                <div class="card-header">
+                    Detalles de Empleado
+                </div>
+                <div class="card-body p-0">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Codigo</th>
+                                <th>Nombres</th>
+                                <th>Genero</th>
+                                <th>F.Nacimiento</th>
+                                <th>F.Ingreso</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>0001</td>
+                                <td>JENNIFFER FREIRE</td>
+                                <td>F</td>
+                                <td>09-04-2001</td>
+                                <td>02-15-2023</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./app.js" type="module"></script>
+</body>
+
+</html>

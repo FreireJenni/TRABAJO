@@ -1,0 +1,94 @@
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    background-image: url(https://img.freepik.com/vector-gratis/tonos-azules-fondo-acuarela_91008-275.jpg?w=2000&t=st=1674368572~exp=1674369172~hmac=53a230b5b225dd290e03a2dc079fbb43f4f6aaa9fdac1e2e925f23f4290ed75b);
+  
+    
+}
+.photo{
+    width: 15%;
+    min-width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+.container-fluid{
+    background-color:silver;
+    display:flow-root;
+    margin-bottom: 100px;
+}
+
+.table {
+    background-color: pink;
+    padding-top:  10px; 
+    padding-right: 10px;
+    padding-bottom: 50px;
+    border: 1px solid #000;
+    position: absolute; top: 300px; left: 500px; width: inherit; 
+    margin-bottom: 300px;
+}
+
+.boton1{
+    position: absolute; top: 10px; left: 500px; width: inherit; 
+}
+.boton2{
+
+    position: absolute; top: 10px; right: 200px; width: inherit; 
+}
+.boton3{
+    position: absolute; top: 40px; left: 500px; width: inherit; 
+}
+.boton4{
+    position: absolute; top: 40px; right: 196px; width: inherit; 
+}
+.boton5{
+    position: absolute; top: 70px; left: 500px; width: inherit; 
+}
+.boton6{
+    position: absolute; top: 70px; right: 216px; width: inherit; 
+
+}
+
+.btn1 {
+    background-color:gold;  
+    line-height: 18px;
+    position: absolute; top: 120px; left: 400px; width: inherit; 
+
+}
+.btn2 {
+    background-color: aquamarine;
+    line-height: 18px;
+    position: absolute; top: 120px; left: 700px; width: inherit; 
+}
+.btn3 {
+    background-color: cornflowerblue;
+    line-height: 18px;
+    position: absolute; top: 120px; left: 550px; width: inherit; 
+}
+.btn4 {
+    background-color:rosybrown;
+    line-height: 18px;
+    position: absolute; top: 120px; right: 500px; width: inherit; 
+
+}
+.btn5{
+    background-color: lightcoral;
+    line-height: 18px;
+    position: absolute; top: 70px; right: 100px; width: inherit; 
+
+    
+}
+
+.card-header{
+    position: absolute; top: 250px; left: 620px; width: inherit; 
+    font-size:x-large;
+    
+
+}
